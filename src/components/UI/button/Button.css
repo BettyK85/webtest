@@ -1,0 +1,20 @@
+ .btn{
+    font-size: 1.6rem;
+    font-weight: 300;
+    border: 2px solid black;
+    border-radius: 2px;
+    Color:black;
+    transition: all 5s ease-in-out;
+    text-decoration:none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    padding: 5px 8px;
+}
+ .btn:hover{
+    color:orange;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+
