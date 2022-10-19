@@ -1,6 +1,6 @@
 import React from "react";
 import"./Header.css";
-import front from "../../image/front.png";
+import o from "../../image/o.jpg";
 import Button from '../UI/button/Button';
 import {BsMouse}  from "react-icons/bs";
   
@@ -34,7 +34,7 @@ const Header = () => {
         
 
         <div className="header-right">
-          <img src={front} alt ="front"/>
+          <img src={o} alt ="o"/>
         </div>
           </div>
         {/* <div className="floating-icon">

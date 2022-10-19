@@ -26,8 +26,8 @@ text:"offer you a peek into the environment you wish to work in someday. As you 
     {
         id:4,
 icon:<MdConnectWithoutContact color="black" size={22}/>,
-heading:"Designed ",
-text:"all that is needed partb 4"
+heading:"computer courses ",
+text:"Traning of differnet courses such as Basic computer course, peachtree, programming/Advanced java,python.., Data base administration web design and so much more"
     }
     
 ]
