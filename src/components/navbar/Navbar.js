@@ -21,19 +21,19 @@ const toggleMenu = () => {
         </p>
         </div>
         <menu>
-           <ul className="nav-links" id= {showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"} >
+           <ul className="nav-links" id= { showMenu ? "nav-links-mobile" : " "}>
            <li><a href="#">Home</a></li>
-           <li><a href="#Features">About us</a></li>
+           <li><a href="#Features">Our services</a></li>
            <li><a href="#AboutUs">Testmony</a></li>
-           <li><a href="#Subscribe">contact us</a></li>
-           <li className="nav-btn"><a href="#Faq" className="btn btn-dark">Learn more</a>
+           <li><a href="#Subscribe">Contact us</a></li>
+           <li className="nav-btn"><a href="#Faq" className="btn btn-dark">Learn More</a>
            </li> 
             
            </ul>
         </menu>
         <div className="menu-icons" onClick={toggleMenu}>
           {
-            showMenu ? (<RiCloseLine color="#" size={30}/>):(<AiOutlineBars color="#" size={27}/>)
+            showMenu ? <RiCloseLine color="#" size={30}/>:<AiOutlineBars color="#" size={27}/>
           }
         </div>
     </nav>

@@ -1,6 +1,5 @@
 .features{
-    width: 100%;
-    background-color: black;
+    width: 10%;
     height: auto;
     display: flex;
     margin: 0 auto;
@@ -8,11 +7,15 @@
     align-items: center;
     flex-direction: column;
 }
+.features P.{
+    align-items: center;
+}
 
 .features-content 
 {
 display: flex;
 justify-content: center;
+background-color:white;
 }
 .features-left{
     flex: 1;
@@ -21,7 +24,11 @@ justify-content: center;
 }
 .features-left img
 {
-    width: 100%;
+    width:70%;
+}
+.features-right {
+    flex: 1;
+    width:50%;
 }
 @media screen and (max-width:600px){
     .features-content{

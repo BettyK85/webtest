@@ -58,67 +58,77 @@ a.btn-orange {
     color: var(--color-white);
 }
 .navbar .menu-icons{
-    display: none;
-
-}
-@media screen and (max-width:769px) {
+    display:none;
+ @media screen and (max-width: 769px){
     .nav-btn{
-        display: none;
+        display:none;
+
     }
     
+ }
 }
 @media screen and (max-width:600px) {
     .nav-btn{
-        display: lock;
-    }
-    .nav-links {
-        display: none;
-        border: 2px;
-        color:black;
-        /*z-index:111;*/
-    }
-    .navbar .menu-icons{
         display: block;
     }
     
-}
-.navbar #nav-link-mobile,
-.navbar #nav-link-mobile-hide{
-    display:block;
-    position: absolute;
-    left:0;
-    top:8rem;
-    width:100%;
-    background: var(--beige);
-    border-top: 1px solid var(--color-black);
-    padding-bottom: 5px;
-    transition: all 0.3s;
-}
-.navbar #nav-link-mobile li,
-.navbar #nav-link-mobile-hide li{
-    text-align:center;
-    padding:1rem;
-    border-bottom: 1px solid #000;
-    margin: 0 3rem;
-}
-.navbar #nav-link-mobile-hide li:last-child{
-    border-bottom: none;
-}
-.navbar #nav-link-mobile{
-    animation: slide-in 0.5s ease-in-out;
-}
-.navbar #nav-link-mobile{
-    animation: slide-in 0.5s ease-in-out;
-}
-@keyframes slide-in{
-    0%{
-        transform: translateX(0);
+    
+    .nav-links{
+        display: none;
+        border: 2px solid black;
+        /* z-index: 111; */
     }
-    100%{
-        transform: translateX(-100);
+    .navbar .menu-icons{
+        display:block;
+    
     }
-} 
-navbar #nav-link-mobile-{
-    left:-100%;
-    animation: slide-in 0.5s ease-in-out;
+    
 }
+    .navbar #nav-links-mobile,.navbar #nav-links-mobile-hide{
+        display: block;
+        position: absolute;
+        left:0;
+        top:8rem;
+        width:100%;
+        background-color:whitesmoke;
+        border-top: 1px solid black;
+        padding-bottom: 5px;
+        transition: all 0.3s;
+    }
+    .navbar #nav-links-mobile {
+        animation: slide-in 0.5s ease-in-out;
+    }
+    .navbar #nav-links-mobile-hide {
+        left: -100%;
+        animation: slide-out 0.5s ease-in-out;
+    }
+    @keyframes slide-in 
+    { 0%{
+        transform:translateX(-100%);
+    } 100%{
+        transform:translateX(0);
+    }
+
+
+    }
+    @keyframes slide-out 
+    { 0%{
+        transform:translateX(0%);
+    } 100%{
+        transform:translateX(-100);
+    }
+
+
+    }
+
+    .navbar #nav-links-mobile li,.navbar #nav-links-mobile-hide li{
+        text-align: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid black;
+        margin: 0 3rem;
+    }
+    .navbar #nav-links-mobile li:last-child, .navbar #nav-links-mobile-hide li:last-child{
+        border-bottom: none;
+
+    }
+  

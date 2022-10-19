@@ -12,7 +12,6 @@ rgba(1,223,245,1) 100%
     font-size:3rem;
     font-weight:200;
     line-height: 1.4;
-    text-transform:uppercase;
     margin: 1.5 rem 0;
     padding-bottom:1rem;
     position: relative;
@@ -20,11 +19,11 @@ rgba(1,223,245,1) 100%
 }
 .download h2::after{
 content: "";
-position: absolute;
+position: relative;
 left:50%;
 bottom:0;
-width:10%;
-height:1px;
+width:50%;
+height:2px;
 background: var(--color-white);
 transform:translateX(-50%)
 }
@@ -32,14 +31,14 @@ transform:translateX(-50%)
     display:flex;
     justify-content: center;
     align-items: center;
-    margin:2rem;
+    margin:3rem;
 
 }
 .download-icon{
     margin:1rem 2rem;
     border: 2px solid #fff;
     border-radius:5px;
-    width:12rem;
+    width:150rem;
     padding: 1rem;
     font-size:1.5rem;
 

@@ -9,7 +9,7 @@ const Subscribe = () => {
    <section className="subscribe"  id='Subscribe'>
 <div className="container subscribe">
 <h2>
-  Subscribe now!
+  Join Us Now!
 </h2>
 <form>
   <div className="form-control">

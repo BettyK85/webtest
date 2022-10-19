@@ -17,7 +17,6 @@ const Foooter = () => {
       <a href="#">&bull; About</a>
       <a href="#">&bull; Learn</a>
       <a href="#">&bull; Hosting</a>
-      <a href="#">&bull; Learn</a>
 
     </div>
   </div>
@@ -29,7 +28,7 @@ const Foooter = () => {
       <a href="#">&bull;About</a>
       <a href="#">&bull;Learn</a>
       <a href="#">&bull;Hosting</a>
-      <a href="#">&bull;Learn</a>
+      
 
     </div>
   </div>
@@ -54,7 +53,7 @@ const Foooter = () => {
   <div className="footer-box">
   <img src={globe} alt="globe"/>
   <p className="u-small-text">
-    &copy; copyright 2022
+  &copy; copyright 2022
   </p>
   </div>
 </div>

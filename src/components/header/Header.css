@@ -120,7 +120,7 @@ animation: bounce .8s ease infinite alternate;
 }
 @media screen and (max-width:760px){
     .header h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
 }
